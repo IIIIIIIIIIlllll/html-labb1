@@ -1,0 +1,126 @@
+h1 {
+    color: rgb(19, 17, 17);
+    font-size: 28px;
+    font-style: normal;
+}
+
+.logotype {
+    vertical-align: middle;
+}
+
+p {
+
+    
+}
+
+body {
+  //  background-image: url("https://cdn.pixabay.com/photo/2021/09/22/05/06/city-6645646_960_720.jpg");
+    background-color: rgb(240, 240, 240);
+    width: 600px;
+}
+
+h2 {
+    color: rgb(19, 17, 17);
+
+}
+
+#paragraph {
+    color: rgb(19, 17, 17);
+    font-family: serif;
+    font-size: 15px;
+    text-align: center;
+    width: 50%;
+}
+
+h3 {
+    color: rgb(19, 17, 17);
+    font-style: italic;
+}
+
+h4 {
+    color: rgb(35, 35, 194);
+    font-size: 23px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#hd {
+    color: rgb(19, 17, 17);
+    font-size: 24px;
+    
+}
+
+#table-meny {
+    color: rgb(19, 17, 17);
+    font-size: 24px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    
+}
+    
+nav {
+    
+    width: 1050px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+a {
+    color: rgb(76, 91, 95);
+}
+
+a:hover {
+    color: rgb(236, 86, 16);
+}
+
+#sidbar {
+
+    display: flex;
+    justify-content: space-between;
+    width: 160px;
+}
+
+#map {
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-color: rgba(0, 0, 0, 0.644);
+}
+
+.annonsbilder {
+    width: 250px;
+    height: 150px;
+}
+
+
+#saletable {
+    padding: 10px;
+    width: 800px;
+}
+
+
+th {
+    padding: 20px;
+    border-width: 2px;
+    
+}
+
+td {
+    vertical-align: top;
+    padding: 20px;
+    border-width: 2px;
+    border-right-style: solid;
+}
+
+
+
+
+table, th, td {
+    
+    border-bottom-style: solid;
+    border-collapse: collapse;
+    
+}
+
