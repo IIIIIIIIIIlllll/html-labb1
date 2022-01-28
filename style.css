@@ -1,30 +1,23 @@
+.logotype {
+    vertical-align: middle;
+}
+
+body {
+
+    background-image: url(images/diamond_upholstery.png);
+    width: 900px;
+}
+
+/*-----formaterar typsnitt-----*/
+
 h1 {
     color: rgb(19, 17, 17);
     font-size: 28px;
     font-style: normal;
 }
-
-.logotype {
-    vertical-align: middle;
-}
-
-
-body {
-
-    background-image: url(./img/diamond_upholstery.png);
-    width: 900px;
-}
-
 h2 {
     color: rgb(19, 17, 17);
-}
 
-#paragraph {
-    color: rgb(19, 17, 17);
-    font-family: serif;
-    font-size: 15px;
-    text-align: center;
-    width: 50%;
 }
 
 h3 {
@@ -43,6 +36,20 @@ h5 {
     color:rgba(5, 1, 1, 0.753)
 
 
+}
+
+/*---formaterar så att text inte ligger bredvid bilder. mellanrum mellan bild och text----*/
+
+h6 {
+
+    font-size: 19px;
+    font-family:'Courier New', Courier, monospace;
+    padding: 10px;
+    margin-top: 2px;
+    margin-left: 10px;
+    margin-bottom:10px;
+    width:800px;
+    justify-content: right;
 }
 
 #hd {
@@ -143,14 +150,7 @@ table, th, td {
 
 }
 
-
-#marketlist {
-
-    
-
-
-}
-
+/*----formaterad-----*/
 
 li {
 
@@ -161,14 +161,27 @@ li {
 
 }
 
-h6 {
+/*----reklam-----*/
 
-    font-size: 19px;
-    font-family:'Courier New', Courier, monospace;
-    padding: 10px;
-    margin-top: 2px;
-    margin-left: 10px;
-    margin-bottom:10px;
-    width:800px;
-    justify-content: right;
+.reklambild1{
+position: absolute;
+top: 500px;
+right: 50px;
+}
+.reklambild2{
+    position: absolute;
+    top: 200px;
+    right: 50px;
+}
+
+/*---border runt bilar i marketlist:---*/
+li > a > img{
+
+    border: 4px double black;
+
+}
+
+li > a:hover > img{
+
+   border: 8px dotted grey;
 }
